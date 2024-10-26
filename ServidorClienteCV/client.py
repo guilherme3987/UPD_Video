@@ -6,7 +6,10 @@ import struct
 # Configurações do cliente
 DEST_IP = '127.0.0.1'
 DEST_PORT = 5004
-VIDEO_PATH = "C:/Users/guilh/OneDrive/Área de Trabalho/Redes/UPD_Video/meme.mp4"
+#VIDEO_PATH = "C:/Users/guilh/OneDrive/Área de Trabalho/Redes/UPD_Video/meme.mp4"
+
+VIDEO_PATH = "meme.mp4"
+
 
 # Configurações RTP
 SSRC = 12345  # Identificador da fonte, valor fixo neste exemplo
