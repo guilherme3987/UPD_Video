@@ -6,8 +6,8 @@ import struct
 # Configurações do cliente
 DEST_IP = '127.0.0.1'  # IP do servidor (localhost para teste)
 DEST_PORT = 5004       # Porta do servidor
-VIDEO_PATH = "meme.mp4"  # Caminho do vídeo a ser enviado
-#VIDEO_PATH = "C:/Users/guilh/OneDrive/Área de Trabalho/Redes/UPD_Video/meme.mp4"  # Caminho do vídeo a ser enviado
+#VIDEO_PATH = "meme.mp4"  # Caminho do vídeo a ser enviado
+VIDEO_PATH = "C:/Users/guilh/OneDrive/Área de Trabalho/Redes/UPD_Video/meme.mp4"  # Caminho do vídeo a ser enviado
 
 SSRC = 12345  # Identificador da fonte
 sequence_number = 0  # Número de sequência inicial
