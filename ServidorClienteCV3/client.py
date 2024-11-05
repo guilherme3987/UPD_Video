@@ -16,7 +16,7 @@ client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect((server_ip, server_port))
 
 # Caminho do arquivo de vídeo
-video_path = 'C:/Users/guilh/OneDrive/Área de Trabalho/Redes/UPD_Video/music.mp4'  # Caminho do arquivo de vídeo
+video_path = 'music.mp4'  # Caminho do arquivo de vídeo
 # Abrindo o vídeo
 cap = cv2.VideoCapture(video_path)
 
